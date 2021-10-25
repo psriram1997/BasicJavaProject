@@ -9,7 +9,11 @@ public class Hello {
         Greetings greetings = new Greetings();
         greetingText.append(greetings.generateGreeting());
         greetingText.append(" ");
-        greetingText.append(args[0]);
+        if(args.length > 0) {
+            greetingText.append(args[0]);
+        }else {
+            greetingText.append("buddy");
+        }
         greetingText.append("!");
         System.out.println(greetingText);
     }
