@@ -1,4 +1,4 @@
-package com.sriram;
+package com.sriram.hello;
 
 import java.util.Random;
 

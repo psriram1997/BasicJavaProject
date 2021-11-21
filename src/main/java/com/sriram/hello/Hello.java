@@ -1,4 +1,4 @@
-package com.sriram;
+package com.sriram.hello;
 
 /**
  * Created by sriram on 10/25/21.
@@ -9,9 +9,9 @@ public class Hello {
         Greetings greetings = new Greetings();
         greetingText.append(greetings.generateGreeting());
         greetingText.append(" ");
-        if(args.length > 0) {
+        if (args.length > 0) {
             greetingText.append(args[0]);
-        }else {
+        } else {
             greetingText.append("buddy");
         }
         greetingText.append("!");

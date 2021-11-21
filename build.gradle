@@ -17,8 +17,8 @@ dependencies {
 
 jar {
     manifest {
-        attributes (
-                'Main-Class': 'com.sriram.Hello'
+        attributes(
+                'Main-Class': 'com.sriram.hello.Hello'
         )
     }
 }
